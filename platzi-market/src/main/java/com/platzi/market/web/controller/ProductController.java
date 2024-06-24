@@ -39,6 +39,7 @@ public class ProductController {
     }
 
     @GetMapping("/category/{categoryId}")
+    @Operation(summary = "Search all the products by category")
     public ResponseEntity<List<Product>> getByCategory(@PathVariable("categoryId") int categoryId) {
         return productService.getByCategory(categoryId)
                 .map(products -> new ResponseEntity<>(products, HttpStatus.OK))
@@ -46,11 +47,13 @@ public class ProductController {
     }
 
     @PostMapping("/save")
+    @Operation(summary = "Save a new product")
     public ResponseEntity<Product> save(@RequestBody Product product) {
         return new ResponseEntity<>(productService.save(product), HttpStatus.CREATED);
     }
 
     @DeleteMapping("/delete/{id}")
+    @Operation(summary = "Delete a product by its ID")
     public ResponseEntity delete(@PathVariable("id") int productId) {
         if (productService.delete(productId)) {
             return new ResponseEntity(HttpStatus.OK);
