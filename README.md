@@ -4,13 +4,13 @@ Este repositorio contiene el proyecto desarrollado durante el [Curso de Java Spr
 
 ## Descripción del Proyecto
 
-El proyecto consiste en crear una API para gestionar un supermercado. Incluye la conexión a una base de datos para almacenar y recuperar información, la creación de endpoints para interactuar con los datos y el despliegue de la aplicación en Heroku.
+El proyecto consiste en crear una API para gestionar un supermercado. Incluye la conexión a una base de datos para almacenar y recuperar información, la creación de endpoints para interactuar con los datos.
 
 ### Características
 
 - **Conexión a Base de Datos**: Utilizamos Spring Data JPA para manejar las operaciones con la base de datos.
 - **Creación de Endpoints**: Implementamos varios endpoints para las operaciones CRUD.
-- **Despliegue en Heroku**: La aplicación se despliega en Heroku para ser consumida externamente.
+- **Visualización de endpoints y funcionamiento usando Swagger3**
 
 ## Requisitos
 
