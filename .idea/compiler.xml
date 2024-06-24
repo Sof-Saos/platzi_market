@@ -7,12 +7,12 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mapstruct/mapstruct-processor/1.5.5.Final/897f6f115930b936287bef552bf5fe28cc64717d/mapstruct-processor-1.5.5.Final.jar" />
         </processorPath>
-        <module name="platzi-market.platzi-market.main" />
+        <module name="platzi-market.platzi-market.main~1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="platzi-market.platzi-market.main~1" target="17" />
-      <module name="platzi-market.platzi-market.test~1" target="17" />
+      <module name="platzi-market.platzi-market.main" target="17" />
+      <module name="platzi-market.platzi-market.test" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
