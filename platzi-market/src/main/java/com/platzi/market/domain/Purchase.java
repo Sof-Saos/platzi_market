@@ -1,6 +1,5 @@
 package com.platzi.market.domain;
 
-
 import java.time.LocalDateTime;
 import java.util.List;
 

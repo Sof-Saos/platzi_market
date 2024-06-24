@@ -1,4 +1,5 @@
 package com.platzi.market.domain.repository;
+
 import com.platzi.market.domain.Product;
 
 import java.util.List;
